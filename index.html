@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>Meu primeiro app Vue </title>
+5. <script src="https://unpkg.com/vue@3"> </script>
+6. </head>
+7. <body>
+8. <div id="app">
+9. {{ message }}
+10. </div>
+11. <script>
+12. const app = Vue.createApp({
+13. data() {
+14. return {
+15. message: 'Hello World, Vue.js!'
+16. } }
+17. })
+18. app.mount('#app')
+19. </script>
+20. </body>
+21. </html>
